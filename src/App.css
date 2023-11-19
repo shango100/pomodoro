@@ -1,0 +1,111 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.app {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.length-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#break-label,
+#session-label {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #555;
+}
+
+#break-length,
+#session-length {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004080;
+}
+
+#timer-label,
+#time-left {
+  font-size: 2em; /* Increase the font size */
+  color: #333;
+  font-weight: bold; /* Make the font bold for emphasis */
+}
+
+#time-left {
+  margin: 20px 0;
+}
+
+button#start_stop,
+button#reset {
+  background-color: #28a745;
+}
+
+button#start_stop:hover,
+button#reset:hover {
+  background-color: #218838;
+}
+
+button#start_stop:active,
+button#reset:active {
+  background-color: #1e7e34;
+}
+
+audio {
+  display: none;
+}
+
+/* Add these styles for the footer */
+footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.social-media-links {
+  margin-top: 10px;
+}
+
+.social-media-links a {
+  display: inline-block;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+/* Add your social media icon styles here */
