@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import {useEffect, useRef, useState} from "react";
+import song from "./assets/gogins-alarm.m4a"
 
 const App = () => {
   const [breakLength, setBreakLength] = useState(5);
@@ -106,7 +107,8 @@ const App = () => {
         </div>
 
         <audio id="beep" ref={audioRef}>
-          <source src="../src/assets/beep.mp3" type="audio/mpeg" />
+          {/*<source src="../src/assets/beep.mp3" type="audio/mpeg" />*/}
+          <source src={song} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
 
